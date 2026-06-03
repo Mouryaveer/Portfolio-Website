@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd client && npm install -g pnpm && pnpm install && pnpm build",
-  "outputDirectory": "client/dist",
-  "installCommand": "pnpm install"
+  "buildCommand": "npm install -g pnpm && pnpm install && pnpm build",
+  "outputDirectory": "dist/public",
+  "installCommand": "npm install -g pnpm && pnpm install"
 }
