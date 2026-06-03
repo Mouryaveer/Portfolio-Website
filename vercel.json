@@ -1,5 +1,8 @@
 {
   "buildCommand": "npm install -g pnpm && pnpm install && pnpm build",
   "outputDirectory": "dist/public",
-  "installCommand": "npm install -g pnpm && pnpm install"
+  "installCommand": "npm install -g pnpm && pnpm install",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
